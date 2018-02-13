@@ -17,51 +17,26 @@
 	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
 
 	<!-- Owl carousel -->
-	<!--<link rel="stylesheet" href="assets/css/owl.carousel.min.css">-->
+	<link rel="stylesheet" href="assets/css/owl.carousel.min.css">
 
 	<!-- Main style -->
 	<link rel="stylesheet" href="assets/css/style.css">
-
-  <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">-->
-  <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
-  <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>-->
-  <!--<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>-->
-  <script>
-    function openPage(pageName,elmnt,color) {
-      var i, tabcontent, tablinks;
-      tabcontent = document.getElementsByClassName("tabcontent");
-      for (i = 0; i < tabcontent.length; i++) {
-        tabcontent[i].style.display = "none";
-      }
-      tablinks = document.getElementsByClassName("tablink");
-      for (i = 0; i < tablinks.length; i++) {
-        tablinks[i].style.backgroundColor = "";
-      }
-      document.getElementById(pageName).style.display = "block";
-      elmnt.style.backgroundColor = color;
-
-    }
-    // Get the element with id="defaultOpen" and click on it
-    document.getElementById("defaultOpen").click();
-  </script>
-
 </head>
 <body>
   <div class="wrapp-content">
     <app-root></app-root>
   </div>
 
+  <!-- JQuery v2.2.4 -->
+  <script src="assets/js/jquery/jquery-2.2.4.min.js"></script>
+
   <!-- Superfish v1.7.9 -->
   <script src="assets/js/plugins/jquery.superfish.min.js"></script>
 
   <!-- Owl carousel v2.2.1 -->
-  <!--<script src="assets/js/plugins/jquery.owl.carousel.min.js"></script>-->
+  <script src="assets/js/plugins/jquery.owl.carousel.min.js"></script>
 
   <!-- Main script -->
   <script src="assets/js/main.js"></script>
-
-
-
-
 </body>
 </html>
