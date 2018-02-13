@@ -17,15 +17,15 @@
               <div class="formgroup">
 
               <label>Email Id</label>
-              <input type="text" formControlName="username"  class="form--control" placeholder="EMAIL ID"/>
+              <input type="text"  class="form--control" placeholder="EMAIL ID"/>
               <div  class="alert alert-danger">user name is requried</div>
 
               <label>Password</label>
-              <input type="password" formControlName="username"  class="form--control" name="password" placeholder="PASSWORD"/>
+              <input type="password" class="form--control" name="password" placeholder="PASSWORD"/>
 
-              <div >user name is requried</div>
+              <!--<div >user name is requried</div>-->
 
-            <a routerLink="/categories"> <input class="btn btn-primary" [disabled]="form.invalid" type="submit" value="submit"/></a>
+            <a routerLink="/categories"> <input class="btn btn-primary" type="submit" value="submit"/></a>
 
 
               <a routerLink="/forgot">Forgot Password?</a>
@@ -67,7 +67,7 @@
       </div>
       </div>
       </div>
-  
+
 <!-- <div class="container">
     <div class="row">
         <form [formGroup]="signupForm" *ngIf="signupForm"  (ngSubmit)="signUp(signupForm.value) class="sa-innate-form" style="padding: 50px 0;" (ngSubmit)="signUp(signupForm.value)">
@@ -101,8 +101,8 @@
                                 <span *ngIf="signupForm.controls['password'].errors.maxlength">
                                     max limit reached
                                   </span>
-                            </div>            
-                
+                            </div>
+
                 <label>Password</label>
                 <!-- <input type="password" formControlName="username"  class="form--control" name="password" placeholder="PASSWORD"/> -->
 
@@ -115,6 +115,6 @@
             </div>
         </form>
     </div>
-</div> --> 
+</div> -->
 
 

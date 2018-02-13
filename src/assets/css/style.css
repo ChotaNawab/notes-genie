@@ -1,3 +1,8 @@
+
+
+
+
+
 /*// Montserrat //*/
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900");
 /*-------------------------------------
@@ -11,7 +16,7 @@ Project: Smmart HTML
 03. Common content styles;
 04. Custom plugins styles;
 05. Pages:
-		
+
 		05.01. Home page type 1;
 		05.02. Home page type 2;
 		05.03. Home page type 3;
@@ -989,6 +994,7 @@ ol li::before {
 	margin-top: 15px;
 	margin-left: 51px;
 	position: relative;
+
 }
 
 .search-block__form {
@@ -1116,6 +1122,7 @@ ol li::before {
 	display: table;
 	clear: both;
 }
+
 
 .content-box-01__title {
 	font-size: 36px;
@@ -1691,7 +1698,7 @@ ol li::before {
 	padding: 0 20px;
 	position: relative;
 	z-index: 10;
-	
+
 }
 
 .img-position-01 {
@@ -3140,7 +3147,7 @@ ol li::before {
 	text-align: center;
 	font-size: 0;
 	margin-bottom: 100px;
-	
+
 	/* background-image: url(https://i0.wp.com/balancedachievement.com/wp-content/uploads/2017/01/Ralph-Waldo-Emerson-Quotes-Featured.jpeg?resize=1170%2C780&ssl=1); */
 
 }
@@ -3161,7 +3168,7 @@ ol li::before {
 .search-bg__text {
 	display: inline-block;
 	vertical-align: middle;
-	background-color: #fff;
+	background-color:lavender;
 	-webkit-border-radius: 22px 0 0 22px;
 	border-radius: 22px 0 0 22px;
 	border: none;
@@ -3170,7 +3177,7 @@ ol li::before {
 	height: 50px;
 	padding: 10px 20px 10px 30px;
 	font-size: 16px;
-	color: #000;
+	color:whitesmoke;
 	font-weight: 300;
 }
 
@@ -4185,7 +4192,7 @@ ol li::before {
 	transition: opacity 500ms;
 	z-index: 11;
 	background-image: url("../img/img_05.jpg");
-	
+
 }
 
 .play-video {
@@ -10903,8 +10910,8 @@ ol li::before {
 
 #pics{
 background-image: url(https://i0.wp.com/balancedachievement.com/wp-content/uploads/2017/01/Ralph-Waldo-Emerson-Quotes-Featured.jpeg?resize=1170%2C780&ssl=1);
-	
-	
+
+
 }
 
 .employee{
